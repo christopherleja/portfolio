@@ -1,12 +1,10 @@
 import React from 'react'
-// import bg from "../sass/img/paint-bg-small.jpg";
 
 
 const Projects = () => {
   return (
     <section className="projects" id="projects">
       <h1 className="heading-1 projects__title">Projects</h1>
-      {/* <img className="projects__bg" src={bg} alt="Photo by Steve Johnson on Unsplash"></img> */}
       <div className="projects__container">
         <div className="projects__card projects__card--1">
         <h2 className="heading-2 projects__heading">Maiestro</h2>

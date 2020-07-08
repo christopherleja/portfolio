@@ -1,7 +1,5 @@
 import React from 'react'
 import bg from "../sass/img/paint-bg-small.jpg";
-// import { Link, ListItem, ListItemIcon, IconButton, ListItemText, List } from "@material-ui/core"
-// import { GitHub, LinkedIn, Email } from "@material-ui/icons";
 import Subheading from './Subheading';
 
 
@@ -22,7 +20,6 @@ const About = () => {
           I’ve edited a best-selling poetry collection, and am a multiple Pushcart Prize nominee. Coding offers exciting new opportunities to connect people through dynamic, interactive stories. I'm excited to help tell them.
           </p>
       </div>
-        {/* <div className="about__skills"> */}
           <h3 className="heading-3 about__heading-3">Technical Skills</h3>
           <div className="about__skills-container">
             <div className="about__skills-card">
@@ -57,7 +54,6 @@ const About = () => {
               <li className="about__skills-item">Material</li>
             </ul>
           </div>
-        {/* </div> */}
       
       </div>
     </section>

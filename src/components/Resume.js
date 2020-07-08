@@ -1,13 +1,11 @@
 import React from 'react'
 import { makeStyles } from '@material-ui/core/styles'
-import { Typography, Box, Link, Button } from '@material-ui/core'
+import { Typography, Box } from '@material-ui/core'
 import abstract from "../sass/img/abstract-medium.jpg";
 import resume from "../sass/img/Resume_Christopher_Leja.pdf";
 
 const styles = makeStyles(theme => ({
   mainContainer: {
-    // backgroundImage: 'linear-gradient(to right, rgba(161, 186, 137, 1), rgba(61, 102, 78, 1))',
-    // // backgroundSize: "cover",
     width: '100%',
     padding: "2.5rem",
     zIndex: "-1",
@@ -45,7 +43,6 @@ const styles = makeStyles(theme => ({
     position: "relative",
     margin: "1rem 3rem 1rem 1rem",
     clear: "both",
-    // background: "rgba(0, 0, 0, 0.2)",
     "&:after": {
       content: "''",
       position: "absolute",
