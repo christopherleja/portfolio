@@ -2,6 +2,7 @@ import React from 'react'
 import { makeStyles } from '@material-ui/core/styles'
 import { Typography, Box, Link, Button } from '@material-ui/core'
 import abstract from "../sass/img/abstract-medium.jpg";
+import resume from "../sass/img/Resume_Christopher_Leja.pdf";
 
 const styles = makeStyles(theme => ({
   mainContainer: {
@@ -137,9 +138,9 @@ const Resume = () => {
   const classes = styles()
   return (
     <>
-    <h1 className="heading-1 resume__heading"> Resume </h1>
+    <h1 className="heading-1 resume__heading" id="resume"> Resume </h1>
     <button className="resume__button">
-      <a href={abstract} download className="resume__button-link">
+      <a href={resume} download className="resume__button-link">
         Downloadable version
         </a>
         </button>
@@ -147,18 +148,9 @@ const Resume = () => {
         <img src={abstract} alt="Art by Annie Spratt on Unsplash" className={classes.backgroundImg}>
         </img>
 
-        <Typography variant="h4" align="center" className={classes.heading} id="resume">
+        <Typography variant="h4" align="center" className={classes.heading}>
           Experience
         </Typography>
-        <Box component="div" className={classes.link}>
-            {/* <Typography className={classes.subHeading} align="center" style={{color: '#382633'}}> */}
-              <Button>
-              <Link href="www.youtube.com" target="_blank" rel="noopener noreferrer" style={{zIndex: "10"}}>
-                Downloadable Resume
-              </Link>
-              </Button>
-            {/* </Typography> */}
-        </Box>
         <Box component="div" className={classes.timeLine}>
           <Typography variant="h2" 
           className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
