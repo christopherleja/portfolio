@@ -17,7 +17,6 @@ function App() {
     <>
         <Navbar />
         <div className="portfolio__container">
-        {console.log(bigScreen, "innerWidth" + window.innerWidth)}
         <header className="header" id="home">
           <div className="header__bg">
             <video className="header__bg-video__content" 
