@@ -1,25 +1,41 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import Navbar from './components/Navbar';
+import Projects from './components/Projects';
+import Resume from './components/Resume';
+import About from './components/About';
+import Footer from './components/Footer';
+import Subheading from './components/Subheading';
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+        <Navbar />
+        <div className="portfolio__container">
+
+        <header className="header" id="home">
+          <div className="header__bg">
+            <video className="header__bg-video__content" src="./img/background-standard.mp4" autoPlay muted loop/>
+          </div>
+        
+          <div className="home__container">
+            <h1 className="heading-1 home__heading">Christopher Leja</h1>
+            <h3 className="heading-3 home__subheading">Full Stack Developer</h3>
+            <div className="home__icon-container">
+              <Subheading />
+            </div>
+          </div>
+        </header>
+        <div className="container">
+          <Projects />
+          <Resume />
+          <About />
+        </div>
+      </div>
+      <Footer />
+    </>
   );
 }
 

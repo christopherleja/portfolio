@@ -1,0 +1,24 @@
+.heading{
+  &-1 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-bottom: 1.4rem;
+}
+
+&-2{
+  font-size: 1.6rem;
+}
+
+&-3 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+&-4{
+  font-size: 1rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+}

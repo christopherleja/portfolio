@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;400;500&display=swap');
+
+
+$color-purple: #382633;
+
+$font-secondary: 'Noto Serif JP', serif-japanese;
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-family: "Open Sans", sans-serif;
+  
+  @media only screen and (max-width: 62.5em) {
+    font-size: 80%;
+  }
+
+  @media only screen and (max-width: 50em) {
+    font-size: 70%;
+  }
+}
+
+body {
+  padding: 0 4rem;
+  box-sizing: border-box;
+  background-image: linear-gradient(to right, rgba(#dbcce6, .4), rgba(#311552, .4));
+  background-size: cover;
+  min-height: 100vh;
+
+  @media only screen and (max-width: 31.25em) {
+    padding: 0;
+  }
+
+}
+
+.portfolio__container{
+  margin-right: 6rem;
+
+  @media only screen and (max-width: 37.5em) {
+    margin-right: 0;
+  }
+}

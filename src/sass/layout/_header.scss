@@ -1,0 +1,23 @@
+.header {
+  position: relative;
+  width: 100%;
+  margin: auto;
+
+  &__bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: .65;
+    overflow: hidden;
+
+    &-video__content{
+      // height: 100%;
+      // width: 100%;
+      background-size: cover;
+    }
+  }
+}
+
