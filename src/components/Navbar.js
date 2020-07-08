@@ -20,13 +20,7 @@ const navArr = [
     listIcon: "",
     text: "About",
     link: "#about"
-  },
-  // {
-  //   listIcon: "",
-  //   text: "Contact",
-  //   link: "#contact"
-  // },
-  
+  }
 ]
 
 const Navbar = () => {

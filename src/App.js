@@ -10,14 +10,18 @@ import Subheading from './components/Subheading';
 
 
 function App() {
+
+  const bigScreen = window.innerWidth > 1450
+
   return (
     <>
         <Navbar />
         <div className="portfolio__container">
-
+        {console.log(bigScreen, "innerWidth" + window.innerWidth)}
         <header className="header" id="home">
           <div className="header__bg">
-            <video className="header__bg-video__content" src="./img/background-standard.mp4" autoPlay muted loop/>
+            <video className="header__bg-video__content" 
+            src={bigScreen ? "./img/background-big.mp4" : "./img/background-standard.mp4"} autoPlay muted loop/>
           </div>
         
           <div className="home__container">

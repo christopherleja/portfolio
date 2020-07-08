@@ -27,7 +27,7 @@ html {
 }
 
 body {
-  padding: 0 4rem;
+  padding: 0;
   box-sizing: border-box;
   background-image: linear-gradient(to right, rgba(#dbcce6, .4), rgba(#311552, .4));
   background-size: cover;
@@ -40,7 +40,7 @@ body {
 }
 
 .portfolio__container{
-  margin-right: 6rem;
+  // margin-right: 6rem;
 
   @media only screen and (max-width: 37.5em) {
     margin-right: 0;
