@@ -1,8 +1,9 @@
 .footer {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 1fr min-content;
-  width: 80%;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr repeat(2, min-content);
+  width: 100%;
+  gap: .7rem;
   font-size: .8rem;
   line-height: 1.5;
   text-align: center;
@@ -11,5 +12,9 @@
     grid-column: 1 / -1;
     justify-items: center;
     margin: auto;
+  }
+
+  &__credit{
+    font-size: .7rem;
   }
 }
