@@ -2,7 +2,7 @@ import React from 'react'
 import { makeStyles } from '@material-ui/core/styles'
 import { Typography, Box } from '@material-ui/core'
 import abstract from "../sass/img/abstract-medium.jpg";
-import resume from "../sass/img/resume_christopher_leja.pdf";
+import resume from "./components/resume_christopher_leja.pdf";
 
 
 const styles = makeStyles(theme => ({
