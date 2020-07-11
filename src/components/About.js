@@ -26,6 +26,7 @@ const About = () => {
               <ul className="about__skills"> Languages
                 <li className="about__skills-item">JavaScript</li>
                 <li className="about__skills-item">Ruby</li>
+                <li className="about__skills-item">TypeScript</li>
               </ul>
             </div>
 

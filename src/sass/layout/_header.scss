@@ -7,7 +7,7 @@
   &__bg{
     position: absolute;
     top: 0;
-    left: auto;
+    left: 0;
     height: 100vh;
     width: 100vw;
     z-index: -1;
@@ -17,9 +17,12 @@
 
     &-video__content{
       height: 100vh;
-      width: 100vw;
       margin: auto;
       background-size: cover;
+
+      @media only screen and (min-width: 75em) {
+        width: 100vw;
+      } 
     }
   }
 }
