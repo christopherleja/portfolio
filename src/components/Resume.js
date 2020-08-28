@@ -181,7 +181,7 @@ const Resume = () => {
                   Sans Serif
                 </Typography>
                 <Typography variant="subtitle1" align="center" style={{color: "#ddd" }}>
-                  - Wrote and reviewed attendee materials for Charles Schwab’s IMPACT 2019 Conference to ensure quality and clarity.
+                  - Wrote and reviewed attendee materials for Charles Schwab’s IMPACT Conference to ensure quality, clarity, and consistency.
                   <br/>
                   - Created guide materials clarifying workshops and speaker biographies for thousands of conference attendees.
                 </Typography>

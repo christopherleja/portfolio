@@ -81,7 +81,7 @@
     &-container {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
-      justify-items: space-around;
+      justify-items: center;
       padding: 2rem;
       text-align: center;
       color: blanchedalmond;
@@ -89,6 +89,7 @@
     }
 
     &-item{
+      align-self: center;
       font-size: .9rem;
       font-weight: 600;
       border-bottom: none;
