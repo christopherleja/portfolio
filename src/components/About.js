@@ -27,6 +27,7 @@ const About = () => {
                 <li className="about__skills-item">JavaScript</li>
                 <li className="about__skills-item">Ruby</li>
                 <li className="about__skills-item">TypeScript</li>
+                <li className="about__skills-item">Python</li>
               </ul>
             </div>
 
@@ -36,6 +37,7 @@ const About = () => {
                 <li className="about__skills-item">Redux</li>
                 <li className="about__skills-item">Ruby on Rails</li>
                 <li className="about__skills-item">Node.js</li>
+                <li className="about__skills-item">Django</li>
               </ul>
             </div>
 
@@ -43,6 +45,7 @@ const About = () => {
             <ul className="about__skills"> Databases
               <li className="about__skills-item">SQL</li>
               <li className="about__skills-item">PostgreSQL</li>
+              <li className="about__skills-item">MongoDB</li>
             </ul>
           </div>
           

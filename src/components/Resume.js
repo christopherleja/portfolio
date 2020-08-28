@@ -2,7 +2,7 @@ import React from 'react'
 import { makeStyles } from '@material-ui/core/styles'
 import { Typography, Box } from '@material-ui/core'
 import abstract from "../sass/img/abstract-medium.jpg";
-import resume from "./resume_christopher_leja.pdf";
+import resume from "./resume_christopher_leja_2.pdf";
 
 
 const styles = makeStyles(theme => ({
@@ -170,41 +170,41 @@ const Resume = () => {
               </Typography>
             </Box>
             <Typography variant="h2" 
-            className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
-              2019-2020
+              className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
+                2019-20
               </Typography>
               <Box component="div" className={`${classes.timeLineItem} ${classes.textBorder}`}>
                 <Typography variant="h5" align="center" className={classes.subHeading}>
-                  Communications Consultant
+                  Writer, IMPACT Conference, 2019-20
                 </Typography>
                 <Typography variant="body1" align="center" style={{color: "#6292BC" }}>
-                  Clean Fuels Development Coalition
+                  Sans Serif
                 </Typography>
                 <Typography variant="subtitle1" align="center" style={{color: "#ddd" }}>
-                  - Collaboratively developed long-term media strategies and handled media outreach for a national ad campaign.
+                  - Wrote and reviewed attendee materials for Charles Schwab’s IMPACT 2019 Conference to ensure quality and clarity.
                   <br/>
-                  - Oversaw social media campaigns that generated over 50,000 new engagements.
-                  <br/>
-                  - Collaborated on traditional media campaigns resulting in client’s core messages appearing in Forbes, The Hill and the Des Moines Register.
+                  - Created guide materials clarifying workshops and speaker biographies for thousands of conference attendees.
                 </Typography>
-              </Box>
+          </Box>
             <Typography variant="h2" 
-              className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
-                2019
-                </Typography>
-                <Box component="div" className={`${classes.timeLineItem} ${classes.textBorder}`}>
-                  <Typography variant="h5" align="center" className={classes.subHeading}>
-                    Writer, IMPACT 2019 Conference
-                  </Typography>
-                  <Typography variant="body1" align="center" style={{color: "#6292BC" }}>
-                    Sans Serif
-                  </Typography>
-                  <Typography variant="subtitle1" align="center" style={{color: "#ddd" }}>
-                    - Wrote and reviewed attendee materials for Charles Schwab’s IMPACT 2019 Conference to ensure quality and clarity.
-                    <br/>
-                    - Created guide materials clarifying workshops and speaker biographies for thousands of conference attendees.
-                  </Typography>
-            </Box>
+            className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
+              2019-2020
+              </Typography>
+          <Box component="div" className={`${classes.timeLineItem} ${classes.textBorder}`}>
+            <Typography variant="h5" align="center" className={classes.subHeading}>
+              Communications Consultant
+            </Typography>
+            <Typography variant="body1" align="center" style={{color: "#6292BC" }}>
+              Clean Fuels Development Coalition
+            </Typography>
+            <Typography variant="subtitle1" align="center" style={{color: "#ddd" }}>
+              - Collaboratively developed long-term media strategies and handled media outreach for a national ad campaign.
+              <br/>
+              - Oversaw social media campaigns that generated over 50,000 new engagements.
+              <br/>
+              - Collaborated on traditional media campaigns resulting in client’s core messages appearing in Forbes, The Hill and the Des Moines Register.
+            </Typography>
+          </Box>
             <Typography variant="h2" 
               className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
                 2012-2020
