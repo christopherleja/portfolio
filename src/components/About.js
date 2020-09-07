@@ -34,6 +34,7 @@ const About = () => {
             <div className="about__skills-card">
               <ul className="about__skills"> Frameworks
                 <li className="about__skills-item">React</li>
+                <li className="about__skills-item">React Native</li>
                 <li className="about__skills-item">Redux</li>
                 <li className="about__skills-item">Ruby on Rails</li>
                 <li className="about__skills-item">Node.js</li>
