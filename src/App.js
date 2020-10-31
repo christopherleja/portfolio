@@ -20,12 +20,12 @@ function App() {
         <header className="header" id="home">
           <div className="header__bg">
             <video className="header__bg-video__content" 
-            src={bigScreen ? "./img/background-big.mp4" : "./img/background-standard.mp4"} autoPlay muted loop/>
+              src={bigScreen ? "./img/background-big.mp4" : "./img/background-standard.mp4"} autoPlay muted loop/>
           </div>
         
           <div className="home__container">
             <h1 className="heading-1 home__heading">Christopher Leja</h1>
-            <h3 className="heading-3 home__subheading">Full Stack Developer</h3>
+            <h3 className="heading-3 home__subheading">Full Stack Software Engineer</h3>
             <div className="home__icon-container">
               <Subheading />
             </div>
